@@ -1,3 +1,29 @@
 .containerItem {
+    width: 400px;
     display: flex;
+    border: 3px solid rgba(0, 0, 0, 0.241);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    margin: 30px auto;
+    text-align: right;
+    height: 150px;
+    font-family: 'Josefin Sans', sans-serif;
+    cursor: pointer;
+}
+
+.containerItemSelect {
+    width: 400px;
+    display: flex;
+    border: 3px solid rgba(0, 182, 27, 0.756);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    margin: 30px auto;
+    text-align: right;
+    height: 150px;
+    font-family: 'Josefin Sans', sans-serif;
+    cursor: pointer;
 }

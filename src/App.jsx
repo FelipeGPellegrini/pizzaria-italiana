@@ -1,13 +1,13 @@
 import './App.css'
 import Header from "./components/Header"
-import Product from "./components/Product"
+import Products from "./components/Products"
 
 function App() {
 
   return (
     <>
       <Header/>
-      <Product/>
+      <Products/>
     </>
   )
 }
