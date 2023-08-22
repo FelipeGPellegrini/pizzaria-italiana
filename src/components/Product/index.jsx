@@ -10,7 +10,7 @@ const index = (props) => {
             <h2>{props.name}</h2>
             <h3>R${props.price},00</h3>
             <div className="quantityBox">
-              <span>-</span><h4>{props.quantity}</h4><span>+</span>
+              <span>-</span><h4>{props.quantity}</h4><span onClick={props.addQuantity}>+</span>
             </div>
         </div>
     </div>

@@ -11,12 +11,18 @@ const index = () => {
         { name: "Coca-Cola", price: 8.00, photo: "./coca-cola.png", quantity: 0},
     ])
 
+    function addQuantity () {
+        menu.quantity++
+        let totalValue = menu.price * menu.quantity
+        console.log(totalValue)
+    }
+
   return (
         <>
             <div className="menuContainer">
                 <div>
                     {menu.map((menu) => (
-                        <Product key={1} name={menu.name} price={menu.price} photo={menu.photo} quantity={menu.quantity}/>
+                        <Product add={addQuantity} key={1} name={menu.name} price={menu.price} photo={menu.photo} quantity={menu.quantity}/>
                     ))}
                 </div>
             </div>
